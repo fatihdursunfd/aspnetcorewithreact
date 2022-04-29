@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(MyAllowSpecificOrigins,
                           policy =>
                           {
-                              policy.WithOrigins("http://localhost:3001", "https://appname.azurestaticapps.net")
+                              policy.WithOrigins("http://localhost:3001", "https://ashy-grass-0016f2010.1.azurestaticapps.net")
                                                   .AllowAnyHeader()
                                                   .AllowAnyMethod();
                           });
